@@ -23,6 +23,7 @@ public class Contact implements Serializable, Cloneable {
     private String email = "";
     private Date birthDate;
 
+    
     public Long getId() {
         return id;
     }
